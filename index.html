@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/glider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body class="container">
+        <header class="header">
+            <section class="header__principal">
+                <nav class="header__principal--nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/shop.html">Shop</a></li>
+                    </ul>
+                </nav>
+                <div class="header__principal--logo">
+                    <a href="index.html">
+                        <img src="images/icons/logo.png" alt="Logo">
+                    </a>
+                    <h1> TECH LAB</h1>
+                </div>
+                <div class="header__principal--icons">
+                    <li href="cart.html">
+                        <img src="images/icons/searchIcon.png" alt="Search">
+                    </li>
+                    <li href="cart.html">
+                        <img src="images/icons/cartIcon.png" alt="Cart">
+                    </li>
+                </div>
+            </section>
+            <section class="header__secundary">
+                <nav class="header__secundary--nav">
+                    <ul>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Desktops</a></li>
+                        <li><a href="#">Cellphones</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Deal of the day</a></li>
+                    </ul>
+                </nav>
+                <div class="header__secundary-login">
+                    <a>
+                        <img src="images/icons/peopleIcon.png" alt="icon account">
+                        <h2>Account</h2>
+                        <img class="downArrow" src="images/icons/downArrow.png" alt="arrow">
+                        <div class="menu" id="menu">
+                            <form action="login">
+                                <label for="username">Username</label>
+                                <input type="text" placeholder="Username">
+                                <label for="password">Password</label>
+                                <input type="password" placeholder="Password">
+                                <button type="submit">Login</button>
+                            </form>
+                        </div>    
+                    </a>
+                </div>
+            </section>
+        </header>
+        <main class="main">
+            <div class="glider-contain" id="main">
+                <div class="glider" id="gliderMain">
+                    <div><img src="images/carrousel/article1.png" alt="Artículo 1"></div>
+                    <div><img src="images/carrousel/article2.png" alt="Artículo 2"></div>
+                    <div><img src="images/carrousel/article3.jpg" alt="Artículo 3"></div>
+                </div>
+                <button aria-label="Previous" class="glider-prev" id="glider-prev0"><img src="images/icons/leftArrow.png" alt="Left arrow"></button>
+                <button aria-label="Next" class="glider-next" id="glider-next0"><img src="images/icons/rigthArrow.png" alt="Rigth arrow"></button>
+                <div role="tablist" class="dots" id="dots0"></div>
+                <a href="pages/shop.html" class="buttonBox">
+                    <button class="button"> <h3>View more</h3> </button>
+                </a>
+            </div>
+            <section class="boxes">
+                <div class="box">
+                    <img src="images/boxes/components.png" alt="Components">
+                    <h2>Components</h2>
+                </div>
+                <div class="box">
+                    <img src="images/boxes/computers.png" alt="Computers">
+                    <h2>Computers</h2>
+                </div>
+                <div class="box">
+                    <img src="images/boxes/cellphones.png" alt="Cellphones">
+                    <h2>Cellphones</h2>
+                </div>
+            </section>
+            <h3>This week highlights</h3>
+            <div class="glider-contain" id="products1">
+                <div class="glider" id="gliderProducts1">
+                    <div class="glider__box">
+                        <div id="insertProductsWeek1"></div>
+                    </div>
+                    <div class="glider__box">
+                        <div id="insertProductsWeek2"></div>
+                    </div>
+                    <div class="glider__box">
+                        <div id="insertProductsWeek3"></div>
+                    </div>
+                    <div class="glider__box">
+                        <div id="insertProductsWeek4"></div>
+                    </div>
+                    <div class="glider__box">
+                        <div id="insertProductsWeek5"></div>
+                    </div>
+                </div>
+                <button aria-label="Previous" class="glider-prev" id="glider-prev1"><img src="images/icons/leftArrow.png" alt="Left arrow"></button>
+                <button aria-label="Next" class="glider-next" id="glider-next1"><img src="images/icons/rigthArrow.png" alt="Rigth arrow"></button>
+                <div role="tablist" class="dots" id="dots1"></div>
+            </div>
+            <a href="index.html" class="banner"><img src="images/banner/bannerPromo.png" alt="Credit card promotion" srcset=""></a>
+            <h3>Your personalized desktop</h3>
+            <div class="glider-contain" id="products2">
+                <div class="glider" id="gliderProducts2">
+                    <div class="glider__box">
+                        <div id="insertProductsPersonalized1"></div>
+                    </div>
+                    <div class="glider__box">
+                        <div id="insertProductsPersonalized2"></div>
+                    </div>
+                    <div class="glider__box">
+                        <div id="insertProductsPersonalized3"></div>
+                    </div>
+                    <div class="glider__box">
+                        <div id="insertProductsPersonalized4"></div>
+                    </div>
+                    <div class="glider__box">
+                        <div id="insertProductsPersonalized5"></div>
+                    </div>
+                </div>
+                <button aria-label="Previous" class="glider-prev" id="glider-prev2"><img src="images/icons/leftArrow.png" alt="Left arrow"></button>
+                <button aria-label="Next" class="glider-next" id="glider-next2"><img src="images/icons/rigthArrow.png" alt="Rigth arrow"></button>
+                <div role="tablist" class="dots" id="dots2"></div>
+            </div>
+            <section class="multimedia">
+                <div class="iframeImage">
+                    <iframe class="iframe" src="https://www.youtube.com/embed/pBJSZDryt3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <img class="image" src="images/banner/radeonPerformance.png" alt="Radeon performance">
+                </div>
+                <a href="pages/shop.html">
+                    <button class="finalButton"> <h3>View All Products</h3> </button>
+                </a>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer_top">
+                <h2>TECH LAB</h2>
+                <button id="goUp"><img src="images/icons/upArrow.png" alt="" srcset=""></button>
+            </div>
+            <div class="footer_mid">
+                <ul class="aboutUs">
+                    <li><span>About us</span></li>
+                    <li><a href="#">Work for us</a></li>
+                    <li><a href="#">Our story</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <ul class="help">
+                    <li><span>Help</span></li>
+                    <li><a href="#">Your orders</a></li>
+                    <li><a href="#">Your account</a></li>
+                    <li><a href="#">Virtual Assistant</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="#"><img src="images/icons/fbIcon.png" alt="Facebook icon"></a></li>
+                    <li><a href="#"><img src="images/icons/mailIcon.png" alt="Mail icon "></a></li>
+                    <li><a href="#"><img src="images/icons/twIcon.png" alt="Twitter icon"></a></li>
+                    <li><a href="#"><img src="images/icons/igIcon.png" alt="Instagram icno"></a></li>
+                </ul>
+            </div>
+            <div class="footer_bottom">
+                <p>© 2022 TECHLAB. All Rights Reserved.</p>
+                <div>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Service</p>
+                </div>
+            </div>
+        </footer> 
+        <script src="js/products.js"></script>
+        <script src="js/glider.js"></script>
+        <script src="js/scripts.js"></script>
+</body>
+</html>
+
